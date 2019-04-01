@@ -5,15 +5,21 @@ layout: default
 {% pattern photos/checkout-banner %}
 
 <div class="grid">
-  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+  <div class="unit xs-1 s-1 m-1 l-1 island">
     {% pattern forms/select-box %}
     {% pattern forms/quantity-input %}
     {% pattern forms/radio-button %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+  <div class="unit xs-1 s-1 m-1 l-1 island">
     {% pattern forms/email-input %}
     {% pattern forms/text-input %}
-    {% pattern forms/mailing-list-input %}
-    {% pattern forms/form-send %}
+  </div>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      {% pattern forms/mailing-list-input %}
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1">
+      {% pattern forms/form-send %}
+    </div>
   </div>
 </div>
