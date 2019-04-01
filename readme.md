@@ -39,6 +39,7 @@ I recommend keeping the products grouped together as they behave strangely when 
 
 - [@jowens96] (https://github.com/jowens96)
 - [@aspirationyc] (https://github.com/aspirationyc)
+- [@miriampion] (https://github.com/miriampion)
 
 ---
 
