@@ -68,6 +68,18 @@ ol {
   color: var(--color-accent);
 }
 
+li {
+  color: var(--color-accent);
+}
+
+th {
+  color: var(--color-accent);
+}
+
+tr {
+  color: var(--color-accent);
+}
+
 dl {
   font-family: var(--font-primary);
   font-weight: bold;
@@ -111,4 +123,8 @@ mark {
 
 .creature-image {
   max-width: 400px;
+}
+
+.alert {
+  background-color: var(--colour-primary);
 }
