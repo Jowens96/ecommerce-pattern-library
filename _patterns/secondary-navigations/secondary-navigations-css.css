@@ -2,10 +2,6 @@ span {
   color: var(--color-black);
 }
 
-label {
-  color: var(--colour-primary);
-}
-
 a {
   display: inline-block;
 }

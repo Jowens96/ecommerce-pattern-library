@@ -8,7 +8,7 @@ html {
 
 label {
   display: block;
-  color: var(--color-black);
+  color: var(--color-accent);
 }
 
 input {
@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: var(--colour-primary);
+  color: var(--color-accent);
 }
 
 fieldset {
