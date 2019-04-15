@@ -63,7 +63,7 @@ p {
 .logo {
   max-width: 150px;
   max-height: 150px;
-  margin: 0;
+  margin: auto;
 }
 
 ul > li::before {
