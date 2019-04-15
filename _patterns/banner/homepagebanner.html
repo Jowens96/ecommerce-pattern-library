@@ -8,9 +8,9 @@
     <h1 class="banner-title exa push-1-2">{{include.heading}}</h1>
     <p class="banner-info mega italic max-length-no-center">{{include.text}}</p>
 
-  {% if include.button_url %}
-      {% pattern buttons/basic url=include.button_url text=include.button_text %}
-  {% endif %}
+    {% if include.button_url %}
+    {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
 
   </div>
 
