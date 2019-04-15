@@ -4,9 +4,9 @@
     <nav class="topnav island-1-4">
       <ul class="push-0">
         <li><a href="/index/" class="{% if.page.highlight_nav == 'index' %}active{% endif %}">Home</a></li>
-        <li class="{% if page.highlight_nav == 'products' %}current{% endif %}"><a href="/products/">Products</a></li>
-        <li><a href="/check-out/">Checkout</a></li>
-        <li><a href="/landing/">Deals</a></li>
+        <li><a href="/products/" class="{% if.page.highlight_nav == 'products' %}active{% endif %}">Products</a></li>
+        <li><a href="/check-out/" class="{% if.page.highlight_nav == 'check-out' %}active{% endif %}">Checkout</a></li>
+        <li><a href="/landing/" class="{% if.page.highlight_nav == 'landing' %}active{% endif %}">Deals</a></li>
 
         <div class="search-container">
           <form class="search-form flex-row">

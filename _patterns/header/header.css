@@ -23,7 +23,7 @@ li {
 }
 
 .topnav a.active {
-  color: var(--color-accent);
+  text-decoration: underline;
 }
 
 .topnav .search-container {
